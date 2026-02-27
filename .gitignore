@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data (large files – keep only the generator script)
+data/agmarknet_prices.csv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# Misc
+*.log
+tmp/
+.tmp/
